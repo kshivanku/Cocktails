@@ -62,7 +62,7 @@ input:focus{
 
 #drinks-list {
   margin-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .drinkCard {
@@ -123,6 +123,7 @@ input:focus{
 #instructions {
   order: 3;
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 100px;
 }
 
 .back_btn {
@@ -131,19 +132,19 @@ input:focus{
   left: 16px;
   height: 40px;
   width: 60px;
-  background-color: rgba(0,0,0,0.6);
+  background-color: #FFED02;
   text-align: center;
-  color: #fff;
+  color: #212121;
   border: none;
   font-size: 14px;
   border-radius: 4px;
   font-family: 'Open Sans', sans-serif;
   cursor: pointer;
   transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+  font-weight: bold;
 }
 
 .back_btn:hover{
-  background-color: rgba(0,0,0,1);
   transform: scale(1.1);
 }
 
